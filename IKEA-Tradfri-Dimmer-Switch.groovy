@@ -1,7 +1,7 @@
 /**
  *  IKEA Tr&aring;dfri Dimmer
  *
- *  Copyright 2017 Jonas Laursen
+ *  Copyright 2023 Casey Cruise
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -12,14 +12,14 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
- *  Updated by Royski to change the clockwise and anti-clockwise on/off
+ *  Copied from Jonas Laursen and modified for use
  *   2023-Apr-05 : Updated Zigbee parsing with accurate 
  *               : added checkPresence() method
  *               : updated logging statements to include description details
  *               : re worked logic for parsing
  */
 metadata {
-	definition (name: "IKEA Trådfri Dimmer as Switch", namespace: "dk.decko", author: "Jonas Laursen") {
+	definition (name: "IKEA Trådfri Dimmer as Switch", namespace: "ccruiser", author: "Casey Cruise") {
         capability "Sensor"
 		capability "Configuration"
 		capability "Switch"
