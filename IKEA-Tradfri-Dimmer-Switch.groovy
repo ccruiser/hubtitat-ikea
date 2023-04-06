@@ -25,7 +25,8 @@ metadata {
 		capability "Switch"
         capability "Refresh"
 		
-	fingerprint endpointId: "01", profileId: "0104", deviceId: "0810", deviceVersion: "02", inClusters: "0000, 0001, 0003, 0009, 0B05, 1000", outClusters: "0003, 0004, 0006, 0008, 0019, 1000"
+	fingerprint inClusters: "0000,0001,0003,0004", endpointId: "01", profileId: "0104", manufacturer: "IKEA of Sweden", model: "TRADFRI open/close remote"
+	//fingerprint endpointId: "01", profileId: "0104", deviceId: "0810", deviceVersion: "02", inClusters: "0000, 0001, 0003, 0009, 0B05, 1000", outClusters: "0003, 0004, 0006, 0008, 0019, 1000"
 	//fingerprint endpointId: "01", profileId: "C05E", deviceId: "0810", deviceVersion: "02", inClusters: "0000, 0001, 0003, 0009, 0B05, 1000", outClusters: "0003, 0004, 0006, 0008, 0019, 1000"
 	}
 	
